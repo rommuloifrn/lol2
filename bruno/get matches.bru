@@ -1,0 +1,15 @@
+meta {
+  name: get matches
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/huG2MpyxZ0MrDOvtBlVaQHYhTM0IvMtJmb_M33jFkEVf3hmgoeaN_io92BVwjKcuKNF32AJYep0wSg/ids?api_key={{riotkey}}
+  body: none
+  auth: none
+}
+
+params:query {
+  api_key: {{riotkey}}
+}

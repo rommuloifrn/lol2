@@ -1,0 +1,15 @@
+meta {
+  name: get match
+  type: http
+  seq: 4
+}
+
+get {
+  url: https://americas.api.riotgames.com/lol/match/v5/matches/BR1_2955294578?api_key={{riotkey}}
+  body: none
+  auth: none
+}
+
+params:query {
+  api_key: {{riotkey}}
+}

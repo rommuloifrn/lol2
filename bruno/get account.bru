@@ -1,0 +1,23 @@
+meta {
+  name: get account
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/BZTroms/shen?api_key={{riotkey}}
+  body: json
+  auth: none
+}
+
+params:query {
+  api_key: {{riotkey}}
+}
+
+body:json {
+  
+    {
+      "api-key": "RGAPI-66cbe54c-213e-4112-a85e-51500a04f2db"
+    }
+  
+}
